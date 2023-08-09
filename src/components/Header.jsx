@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.svg'
 
 
-function Header({personsName}) {
+function Header() {
   
   
   return (
@@ -17,7 +17,6 @@ function Header({personsName}) {
         <li><span className='font-bold'>01</span> DESTINATION</li>
         <li><span className='font-bold'>02</span> CREW</li>
         <li><span className='font-bold'>03</span> TECHNOLOGY</li>
-        <li><span>{personsName}</span></li>
       </ul>
       </header>
     </div>
