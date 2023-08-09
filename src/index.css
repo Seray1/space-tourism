@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-image: url(./assets/backgroundhomedesktop.jpg);
+}
+.line{
+  left: 17em;
+  top: 3em;
+  z-index: 999;
+}
+.l1::before{
+  content: "";
+  position: absolute;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: .3em;
+}
+
